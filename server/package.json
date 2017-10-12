@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Line App using Twilio, Ionic, and Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GIngleton/twilioLineApp.git"
+  },
+  "author": "George Ingleton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GIngleton/twilioLineApp/issues"
+  },
+  "homepage": "https://github.com/GIngleton/twilioLineApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.0.1",
+    "diskdb": "^0.1.17",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "twilio": "^3.6.6"
+  }
+}
